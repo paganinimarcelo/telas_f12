@@ -2,14 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Trophy, Target, BarChart3 } from "lucide-react";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background p-4">
+  return <div className="min-h-screen bg-background p-4">
       <div className="max-w-md mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-2">App de Palpites</h1>
-          <p className="text-muted-foreground">Faça seus palpites nos jogos do Brasileirão</p>
+          <h1 className="text-3xl font-bold mb-2">Fantasy 12</h1>
+          <p className="text-muted-foreground">O melhor fantasy Game do Brasil</p>
         </div>
 
         <div className="space-y-4">
@@ -50,8 +48,6 @@ const Index = () => {
           </Card>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
