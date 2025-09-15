@@ -6,8 +6,8 @@ const Index = () => {
   return <div className="min-h-screen bg-background p-4">
       <div className="max-w-md mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-2">Fantasy 12</h1>
-          <p className="text-muted-foreground">O melhor fantasy Game do Brasil</p>
+          <h1 className="text-3xl font-bold mb-2 text-[#db5c00]">F12</h1>
+          <p className="text-muted-foreground">O melhor Fantasy Game do Brasil</p>
         </div>
 
         <div className="space-y-4">
