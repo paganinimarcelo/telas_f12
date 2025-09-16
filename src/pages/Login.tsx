@@ -24,9 +24,7 @@ const Login = () => {
             <Trophy className="w-8 h-8 text-orange-foreground" />
           </div>
           <CardTitle className="text-2xl font-bold text-orange">Fantasy 12</CardTitle>
-          <CardDescription className="text-muted-foreground">
-            Faça login para continuar suas apostas
-          </CardDescription>
+          <CardDescription className="text-muted-foreground">Faça login para continuar suas análises</CardDescription>
         </CardHeader>
         
         <CardContent className="space-y-6">
